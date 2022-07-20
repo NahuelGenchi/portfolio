@@ -16,7 +16,8 @@
   font-weight: bold;
   .topbar-container {
     width: 65vw;
-    height: 100%;
+    max-height: 10%;
+    position: inherit;
 
     display: flex;
     justify-content: center;
@@ -25,6 +26,13 @@
     .topbar-name {
       position: absolute;
       left: 0;
+
+      p {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95px;
+      }
     }
     .topbar-display {
       position: absolute;
