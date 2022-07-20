@@ -1,0 +1,131 @@
+.header {
+  height: 100vh;
+  width: 65vw;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .header__container {
+    height: 70vh;
+    width: 65vw;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .header__supcontainer-info {
+      width: 65vw;
+      height: 50vh;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .header__container-info {
+        width: 50vw;
+        height: 50vh;
+  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+  
+        text-align: left;
+  
+        p {
+          font-size: 3rem;
+          @media screen and (max-width: 768px) {
+            font-size: 2rem;
+          }
+        }
+  
+        h1 {
+          font-size: 5rem;
+          font-weight: 700;
+          @media screen and (max-width: 768px) {
+            font-size: 3rem;
+          }
+        }
+        .header__container-info-sub {
+          font-size: 1.8rem;
+          color: gray;
+        }
+      }
+
+      .header__container-dec {
+        width: 50px;
+        height: 40vh;
+
+        background-color: #00BFFF;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    .header__container {
+      .header__supcontainer-info {
+        .header__container-info {
+          width: 55vw;
+          p {
+            font-size: 2rem;
+          }
+          h1 {
+            font-size: 3.5rem;
+          }
+          .header__container-info-sub {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: 85vw;
+    .header__container {
+      width: 85vw;
+      .header__supcontainer-info {
+        width: 85vw;
+        .header__container-info {
+          width: 85vw;
+          height: 35vh;
+  
+          text-align: center;
+          .header__container-info-wel {
+            font-size: 0;
+            visibility: hidden;
+            &::after {
+              content: "Hi, I'm";
+              visibility: visible;
+              color: white;
+              font-size: 1.3rem;
+            }
+          }
+          .header__container-info-sub {
+            visibility: hidden;
+            font-size: 0;
+            &::after {
+              visibility: visible;
+              font-size: 1.3rem;
+              content: "Front-End Developer";
+            }
+          }
+          h1 {
+            font-size: 2rem;
+          }
+        }
+        .header__container-dec {
+          display: none;
+        }
+      }
+    }
+  }
+}

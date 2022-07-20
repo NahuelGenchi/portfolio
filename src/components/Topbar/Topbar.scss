@@ -1,7 +1,9 @@
 .topbar {
   width: 65%;
   height: 10vh;
-  position: sticky;
+  position: fixed;
+  left: 0;
+  right: 0;
   margin: 0 auto;
 
   display: flex;

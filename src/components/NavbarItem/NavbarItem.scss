@@ -1,7 +1,7 @@
 li {
   transition: transform 0.3s ease-out;
   &:hover {
-    transform: translateY(-5px);
+    transform: translateY(5px);
   }
   a {
     display: flex;
@@ -10,15 +10,19 @@ li {
 
     font-size: 1.5rem;
 
-    color: black;
+    color: white;
     text-decoration: none;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   li {
+    &:hover {
+      transform: translateY(0px);
+    }
     a {
       font-size: 1.25rem;
+      color: black;
     }
   }
 }
