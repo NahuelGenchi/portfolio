@@ -1,12 +1,12 @@
-import { Topbar, Navbar } from "./components";
-import { Header } from "./container";
+import { Topbar } from "./components";
+import { Header, About } from "./container";
 
 function App() {
   return (
     <div className="app">
       <Topbar />
-      <Navbar />
       <Header />
+      <About />
     </div>
   );
 }
