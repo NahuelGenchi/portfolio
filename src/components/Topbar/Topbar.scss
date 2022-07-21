@@ -6,7 +6,6 @@
   margin: 0 auto;
   z-index: 2;
   background-color: var(--background);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.116);
 
   display: flex;
   justify-content: center;
@@ -16,8 +15,9 @@
   font-weight: bold;
   .topbar-container {
     width: 65vw;
-    max-height: 10%;
+    height: 10vh;
     position: inherit;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.116);
 
     display: flex;
     justify-content: center;
@@ -47,7 +47,8 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+
+@media screen and (max-width: 768px) {
   .topbar {
     width: 100%;
     .topbar-container {

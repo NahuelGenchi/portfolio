@@ -1,10 +1,14 @@
-import { SectionContainer } from "../../components";
+import "../../components/Section/Section.scss";
 
 import "./Technologies.scss";
 
-const Technologies = function() {
+const Technologies = function () {
   return (
-    <SectionContainer title="Technologies" id="technologies" />
+    <section id="technologies" className="section">
+      <div className="section__container">
+        <h2 className="title">Technologies</h2>
+      </div>
+    </section>
   );
 };
 

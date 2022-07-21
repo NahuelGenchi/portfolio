@@ -1,10 +1,14 @@
-import { SectionContainer } from "../../components";
+import "../../components/Section/Section.scss";
 
 import "./Projects.scss";
 
-const Projects = function() {
+const Projects = function () {
   return (
-    <SectionContainer title="Projects" id="projects" />
+    <section id="projects" className="section">
+      <div className="section__container">
+        <h2 className="title">Projects</h2>
+      </div>
+    </section>
   );
 };
 
