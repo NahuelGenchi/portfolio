@@ -1,0 +1,15 @@
+.section {
+  min-height: 90vh;
+  border-top: 1px solid rgba(255, 255, 255, 0.116);
+
+  .section__container {
+    width: 65vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20vh 0;
+
+    @media screen and (max-width: 768px) {
+      padding: 15vh 0;
+    }
+  }
+}
