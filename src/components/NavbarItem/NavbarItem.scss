@@ -4,14 +4,16 @@ li {
     transform: translateY(5px);
   }
   a {
+    
     display: flex;
     justify-content: center;
     align-items: center;
 
     font-size: 1.5rem;
 
-    color: white;
     text-decoration: none;
+    cursor: pointer;
+    color: white;
   }
 }
 

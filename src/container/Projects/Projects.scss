@@ -1,0 +1,11 @@
+section[id=projects] {
+  .section__container {
+    .projects-container {
+      width: 65vw;
+
+      @media screen and (max-width: 768px) {
+        width: inherit;
+      }
+    }
+  }
+}

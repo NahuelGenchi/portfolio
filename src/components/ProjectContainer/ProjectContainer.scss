@@ -1,0 +1,112 @@
+.project-container {
+  width: 100%;
+  padding: 1.9rem;
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+
+  background-color: #14182c;
+
+  &:not(:last-child) {
+    margin-bottom: 3.5rem;
+  }
+
+  @media screen and (max-width: 425px) {
+    flex-direction: column;
+  }
+
+  .project-container-img {
+    width: 15rem;
+    height: auto;
+    object-fit: cover;
+
+    @media screen and (max-width: 425px) {
+      width: auto;
+    }
+
+  }
+
+  .pc-info {
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+      width: auto;
+    }
+
+    .pc-info-text {
+      padding-right: 4rem;
+      margin-bottom: 2rem;
+
+      @media screen and (max-width: 1024px) {
+        padding-right: 0;
+      }
+  
+      h3 {
+        margin-bottom: 1rem;
+  
+        font-size: 2rem;
+  
+        @media screen and (max-width: 425px) {
+          font-size: 1.3rem;
+        }
+      }
+      p {
+        font-size: 1.2rem;
+
+        @media screen and (max-width: 1024px) {
+          font-size: inherit;
+        }
+      }
+    }
+
+    .pc-info-assets {
+      .pc-button-container {
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+
+        a {
+          width: 6.8rem;
+          height: 2.5rem;
+          border: 1px solid rgb(50, 50, 50);
+          border-radius: 10px;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 0.3rem;
+
+          background-color: #14182C;
+          color: white;
+          text-decoration: none;
+          
+          transition: background-color 0.5s, color 0.5s;
+
+          &:hover {
+            background-color: white;
+            color: black;
+          }
+
+          @media screen and (max-width: 425px) {
+            font-size: 0.9rem;
+          }
+
+          ion-icon {
+            font-size: 1.5rem;
+
+            @media screen and (max-width: 425px) {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
