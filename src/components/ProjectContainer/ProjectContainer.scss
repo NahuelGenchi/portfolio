@@ -20,11 +20,14 @@
 
   .project-container-img {
     width: 15rem;
-    height: auto;
-    object-fit: cover;
+    height: 15rem;
+    border: 1px solid rgb(78, 78, 78);
+    border-radius: 10px;
+
+    object-fit: contain;
 
     @media screen and (max-width: 425px) {
-      width: auto;
+      width: calc(85vw - 3.8rem);
     }
 
   }
@@ -36,8 +39,8 @@
     flex-direction: column;
     justify-content: space-between;
 
-    @media screen and (max-width: 768px) {
-      width: auto;
+    @media screen and (max-width: 820px) {
+      width: 100%;
     }
 
     .pc-info-text {
