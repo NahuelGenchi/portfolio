@@ -27,39 +27,26 @@
   }
   #navbar-mobile {
     position: inherit;
-    bottom: 4vh;
     left: 0;
     right: 0;
     margin: 0 auto;
   }
   .navbar {
-    width: 65vw;
-    bottom: 5vh;
+    padding: 2rem 0;
+    background-color: #1a1c2e;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 
     ul {
-
       border-radius: 15px;
-    }
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .navbar {
-    width: 85vw;
-    border: 1px solid rgba(255, 255, 255, 0.10);
-    border-radius: 15px;
-    ul {
-      background-color: #1a1c2e;
     }
   }
 }
 
 @media screen and (max-width: 425px) {
   .navbar {
-    width: 85%;
-    bottom: 5vh;
-    border: 1px solid rgba(255, 255, 255, 0.10);
-    border-radius: 15px;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
 
     ul {
       background-color: #1a1c2e;

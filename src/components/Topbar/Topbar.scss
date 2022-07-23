@@ -13,6 +13,7 @@
 
   font-size: 1.2rem;
   font-weight: bold;
+
   .topbar-container {
     width: 65vw;
     height: 10vh;
@@ -34,25 +35,32 @@
         width: 95px;
       }
     }
+
     .topbar-display {
       position: absolute;
       right: 0;
 
       cursor: pointer;
-  
+
       display: flex;
       align-items: center;
       justify-content: center;
     }
   }
-}
 
-
-@media screen and (max-width: 768px) {
-  .topbar {
+  @media screen and (max-width: 768px) {
     width: 100%;
+
     .topbar-container {
       width: 85vw;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.116);
+
+    .topbar-container {
+      border: none;
     }
   }
 }
