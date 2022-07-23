@@ -1,9 +1,12 @@
 import "./ProjectContainer.scss";
 
 const ProjectContainer = function (props) {
+  const iconcolor = props.iconcolor;
   return (
     <div className="project-container">
-      <img src={props.imglink} alt={props.alt} className="project-container-img" />
+      <div className="pc-picture">
+        <ion-icon name={props.icon} style={{color: iconcolor }}></ion-icon>
+      </div>
       <div className="pc-info">
         <div className="pc-info-text">
           <h3>{props.title}</h3>
