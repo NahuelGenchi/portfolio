@@ -8,10 +8,15 @@
 
   .section__container {
     min-height: 35vh;
-    padding: 0;
+    padding-top: 3rem;
 
-    h2 {
-      display: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @media screen and (max-width: 425px) {
+      flex-direction: column;
+      margin-bottom: 3rem;
     }
   }
 }

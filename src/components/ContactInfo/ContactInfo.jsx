@@ -1,10 +1,9 @@
-import "./ContactInfo.scss";
-
-const ContactInfo = function() {
+const ContactInfo = function (props) {
   return (
-    <div className="contact-info__container">
-      <h1>hello</h1>
-    </div>
+    <>
+      <ion-icon name={props.icon}></ion-icon>
+      <span className="ci-span">{props.text}</span>
+    </>
   );
 };
 
