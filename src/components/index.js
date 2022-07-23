@@ -4,3 +4,6 @@ export { default as FontColor } from "./FontColor/FontColor";
 export { default as ContactLink } from "./ContactLink/ContactLink";
 export { default as ContactInfo } from "./ContactInfo/ContactInfo";
 export { default as ProjectContainer } from "./ProjectContainer/ProjectContainer";
+export { default as SkillBContainer } from "./SkillBContainer/SkillBContainer";
+export { default as SkillsContainer } from "./SkillsContainer/SkillsContainer";
+export { default as Skill } from "./Skill/Skill";

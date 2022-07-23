@@ -1,0 +1,15 @@
+.skills-container {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem 0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  
+  @media screen and (max-width: 658px) {
+    justify-content: center;
+  }
+}

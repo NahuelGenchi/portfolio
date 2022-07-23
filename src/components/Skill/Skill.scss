@@ -1,0 +1,50 @@
+.skill {
+  min-width: 7rem;
+  padding: 1.3rem;
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: background-color 0.5s, color 0.5s;
+
+  &:hover {
+    background-color: black;
+  }
+
+  @media screen and (max-width: 658px) {
+    padding: 1rem;
+  }
+
+  .skill-title {
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: default;
+
+    @media screen and (max-width: 658px) {
+      font-size: 0.8rem;
+    }
+  }
+
+  ion-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+    @media screen and (max-width: 658px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  img {
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+
+    @media screen and (max-width: 658px) {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+  }
+}

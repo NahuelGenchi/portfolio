@@ -1,5 +1,5 @@
 import { Topbar } from "./components";
-import { Header, About, Projects, Technologies, Contact } from "./container";
+import { Header, About, Projects, Skills, Contact } from "./container";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Header />
       <About />
       <Projects />
-      <Technologies />
+      <Skills />
       <Contact />
     </div>
   );
