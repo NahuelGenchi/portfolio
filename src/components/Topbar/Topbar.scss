@@ -1,5 +1,5 @@
 .topbar {
-  height: 15vh;
+  height: 7rem;
   position: fixed;
   left: 0;
   right: 0;
@@ -16,7 +16,7 @@
 
   .topbar-container {
     width: 65vw;
-    height: 15vh;
+    height: 7rem;
     position: inherit;
     border-bottom: 1px solid rgba(255, 255, 255, 0.116);
 
@@ -57,9 +57,12 @@
   }
 
   @media screen and (max-width: 425px) {
+    height: 4rem;
+    
     border-bottom: 1px solid rgba(255, 255, 255, 0.116);
 
     .topbar-container {
+      height: 4rem;
       border: none;
     }
   }
