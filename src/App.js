@@ -1,5 +1,3 @@
-import Favicon from "react-favicon";
-
 import { Topbar } from "./components";
 import { Header, About, Projects, Skills, Contact } from "./container";
 
