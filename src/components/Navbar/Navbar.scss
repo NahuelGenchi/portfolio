@@ -7,8 +7,9 @@
     height: 100%;
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 3rem;
 
     list-style: none;
   }
@@ -34,7 +35,6 @@
   .navbar {
     padding: 2rem 0;
     background-color: #1a1c2e;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
 
     ul {
       border-radius: 15px;
@@ -49,6 +49,8 @@
     border-top: 1px solid rgba(255, 255, 255, 0.10);
 
     ul {
+      gap: 12%;
+
       background-color: #1a1c2e;
     }
   }

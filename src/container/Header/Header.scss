@@ -1,7 +1,8 @@
 .header {
-  height: 100vh;
   width: 65vw;
+  min-height: calc(100vh - 2rem);
   margin: 0 auto;
+  padding: 10rem 0;
 
   display: flex;
   flex-direction: column;
@@ -9,7 +10,6 @@
   align-items: center;
 
   .header__container {
-    height: 70vh;
     width: 65vw;
     position: relative;
 
@@ -20,7 +20,7 @@
 
     .header__supcontainer-info {
       width: 65vw;
-      height: 50vh;
+
       position: relative;
       display: flex;
       justify-content: space-between;
@@ -28,7 +28,6 @@
 
       .header__container-info {
         width: 50vw;
-        height: 50vh;
   
         display: flex;
         flex-direction: column;
@@ -37,6 +36,7 @@
         text-align: left;
   
         p {
+          margin: 3rem 0;
           font-size: 3rem;
           @media screen and (max-width: 768px) {
             font-size: 2rem;
