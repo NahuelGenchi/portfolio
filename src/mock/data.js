@@ -24,6 +24,14 @@ const projectsData = [
     description: "In this app you can convert meters, feet, liters, gallons, kilos and pounds into their respective opposite metric/imperial unit."
   },
   {
+    iconName: "cafe",
+    iconColor: "#FAEBD7",
+    hostLink: "https://nahuelgenchi.github.io/coffee_regions",
+    githubLink: "https://github.com/NahuelGenchi/coffee_regions.git",
+    title: "Coffee Regions",
+    description: "Let's take a look at the countries with the highest quality of coffee beans."
+  },
+  {
     iconName: "terminal",
     iconColor: "#3597CB",
     hostLink: "https://nahuelgenchi.github.io/devinfo",
