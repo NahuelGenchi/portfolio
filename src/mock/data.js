@@ -1,4 +1,13 @@
+import nikeLogo from "../assets/nike-logo.png";
+
 const projectsData = [
+  {
+    img: nikeLogo,
+    hostLink: "https://nahuelgenchi.github.io/nikestore",
+    githubLink: "https://github.com/NahuelGenchi/nikestore.git",
+    title: "Nike Store",
+    description: "In this e-commerce app you can explore Nike products, create your own account, add items to cart & proceed to payment."
+  },
   {
     iconName: "document-text",
     iconColor: "#FFE278",

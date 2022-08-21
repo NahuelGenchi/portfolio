@@ -10,6 +10,7 @@ const ProjectContainer = () => {
           <div className="project-container" key={index}>
             <div className="pc-picture">
               <ion-icon name={project.iconName} style={{ color: project.iconColor }}></ion-icon>
+              <img src={project.img} alt={project.title} style={{ display: project.img ? "initial" : "none" }}/>
             </div>
             <div className="pc-info">
               <div className="pc-info-text">
