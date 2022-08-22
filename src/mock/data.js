@@ -9,6 +9,13 @@ const projectsData = [
     description: "In this e-commerce app you can explore Nike products, create your own account, add items to cart & proceed to payment."
   },
   {
+    img: "https://raw.githubusercontent.com/NahuelGenchi/zooanimal/main/src/assets/macaw.png",
+    hostLink: "https://zooanimals-ng.herokuapp.com",
+    githubLink: "https://github.com/NahuelGenchi/zooanimal.git",
+    title: "Zoo Animals",
+    description: "This app returns 10 random zoo animals with information like habitat, geography, diet, etc."
+  },
+  {
     iconName: "document-text",
     iconColor: "#FFE278",
     hostLink: "https://nahuelgenchi.github.io/notes",
