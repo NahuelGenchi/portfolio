@@ -54,22 +54,6 @@ const projectsData = [
     githubLink: "https://github.com/NahuelGenchi/coffee_regions.git",
     title: "Coffee Regions",
     description: "Let's take a look at the countries with the highest quality of coffee beans."
-  },
-  {
-    iconName: "terminal",
-    iconColor: "#3597CB",
-    hostLink: "https://nahuelgenchi.github.io/devinfo",
-    githubLink: "https://github.com/NahuelGenchi/devinfo.git",
-    title: "DevInfo",
-    description: "DevInfo is an app that I created for development shortcuts. Here I can find resources from Git, SASS and Google Fonts."
-  },
-  {
-    iconName: "telescope",
-    iconColor: "#888",
-    hostLink: "https://nahuelgenchi.github.io/mars",
-    githubLink: "https://github.com/NahuelGenchi/mars.git",
-    title: "Mars Facts",
-    description: "This was my first project since I started learning front-end. It is an HTML-only website where you can find facts about the planet Mars. Never forget where you come from."
   }
 ];
 
