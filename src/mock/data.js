@@ -1,4 +1,5 @@
 import nikeLogo from "../assets/nike-logo.png";
+import stylesguideLogo from "../assets/stylesguide-logo.png";
 
 const projectsData = [
   {
@@ -14,6 +15,13 @@ const projectsData = [
     githubLink: "https://github.com/NahuelGenchi/zooanimal.git",
     title: "Zoo Animals",
     description: "This app returns 10 random zoo animals with information like habitat, geography, diet, etc."
+  },
+  {
+    img: stylesguideLogo,
+    hostLink: "https://stylesguide.netlify.app",
+    githubLink: "https://github.com/NahuelGenchi/styleguide.git",
+    title: "Styles Guide",
+    description: "Find the best colors and fonts for your project."
   },
   {
     iconName: "document-text",
