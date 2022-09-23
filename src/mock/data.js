@@ -1,5 +1,6 @@
 import nikeLogo from "../assets/nike-logo.png";
 import stylesguideLogo from "../assets/stylesguide-logo.png";
+import pokeball from "../assets/pokeball.png";
 
 const projectsData = [
   {
@@ -8,6 +9,13 @@ const projectsData = [
     githubLink: "https://github.com/NahuelGenchi/nikestore.git",
     title: "Nike Store",
     description: "In this e-commerce app you can explore Nike products, create your own account, add items to cart & proceed to payment."
+  },
+  {
+    img: pokeball,
+    hostLink: "https://pokedex-ng.netlify.app",
+    githubLink: "https://github.com/NahuelGenchi",
+    title: "Pokédex",
+    description: "All the Pokémon data you'll ever need in one place, easily accessible through a modern RESTful API."
   },
   {
     img: "https://raw.githubusercontent.com/NahuelGenchi/zooanimal/main/src/assets/macaw.png",
